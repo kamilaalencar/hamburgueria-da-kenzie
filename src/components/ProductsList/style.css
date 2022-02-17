@@ -1,0 +1,13 @@
+.container-cards {
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .container-cards {
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+}
