@@ -7,7 +7,11 @@
 @media (min-width: 768px) {
   .container-cards {
     overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 0px;
+    /* display: block; */
+    min-width: 768px;
   }
 }

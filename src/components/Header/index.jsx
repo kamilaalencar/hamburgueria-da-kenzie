@@ -24,13 +24,13 @@ const Header = ({ showProducts }) => {
           </div>
         </div>
       </header>
-      <div className="info-search">
-        {userInput !== "" && (
-          <h4>
-            Resultados para: <p>{userInput}</p>
-          </h4>
-        )}
-      </div>
+
+      {userInput !== "" && (
+        <div className="search-info">
+          <h4>Resultados para:</h4>
+          <p>{userInput}</p>
+        </div>
+      )}
     </>
   );
 };
